@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    a=[]
+    for i in list1:
+        i=i.title()
+        a.append(i)
+    return a
+print(main(['zufar','bobur','lochin']))
